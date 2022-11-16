@@ -271,12 +271,13 @@ p {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  background-image: url("/images/overl.jpg");
 }
+ .plus {
+  background-image: url("/images/mainpicture.jpg");
+ }
 
 
-
-.plus {
+/* .plus {
   background-image: url("/images/Img\ Overlay.svg");
   background: rgba(47, 48, 58, 0.4);
 }
@@ -284,7 +285,7 @@ p {
 .plus {
   background-image: url("/images/Bg.png");
   background: #C4C4C4; 
-}
+} */
 
 .main .btn {
   width: 216px;
@@ -419,13 +420,13 @@ p {
       |============================
     */
 
-.email::before {
-  margin-right: 16px;
+.mail::before {
+  margin-right: 10px;
   background-image: url("/images/icons/envelope.svg");
 }
 
-.phone::before{
-  margin-right: 16px;
+.tel::before {
+  margin-right: 10px;
   background-image: url("/images/icons/smartphone.svg");
 }
 
