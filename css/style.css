@@ -271,6 +271,19 @@ p {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+  background-image: url("/images/overl.jpg");
+}
+
+
+
+.plus {
+  background-image: url("/images/Img\ Overlay.svg");
+  background: rgba(47, 48, 58, 0.4);
+}
+
+.plus {
+  background-image: url("/images/Bg.png");
+  background: #C4C4C4; 
 }
 
 .main .btn {
@@ -406,11 +419,23 @@ p {
       |============================
     */
 
+.email::before {
+  margin-right: 16px;
+  background-image: url("/images/icons/envelope.svg");
+}
+
+.phone::before{
+  margin-right: 16px;
+  background-image: url("/images/icons/smartphone.svg");
+}
+
+
 .ftr {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 
 address {
   font-style: normal;
@@ -497,6 +522,17 @@ address {
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+/**
+      |============================
+      | Sosials
+      |============================
+    */
+
+
+
+
+
 
 /**
       |============================
