@@ -151,6 +151,8 @@ ul {
 .main-bunner {
   background-color: var(--main-txt-cl);
   padding: 188px 0;
+  background-image: url(../images/people-office\ 1.png), url(../images/Dark-bg.png);
+  background-repeat: no-repeat;
 }
 
 .design-h {
