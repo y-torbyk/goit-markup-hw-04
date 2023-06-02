@@ -99,10 +99,8 @@ ul {
 .menu {
   display: flex;
   gap: 40px;
-  flex-direction: row;
-align-items: flex-start;
 padding: 0px;
-gap: 40px;
+
 
 position: absolute;
 width: 261px;
