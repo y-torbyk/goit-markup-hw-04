@@ -99,6 +99,16 @@ ul {
 .menu {
   display: flex;
   gap: 40px;
+  flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
 }
 
 .logo {
