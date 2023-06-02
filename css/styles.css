@@ -124,8 +124,8 @@ ul {
 }
 
 .header-nav {
-  box-sizing: border-box;
-  display: block;
+  /* box-sizing: border-box;
+  display: block; */
 }
 
 .nav-link {
