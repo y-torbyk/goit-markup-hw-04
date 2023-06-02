@@ -123,7 +123,9 @@ ul {
   color: var(--hover-main);
 }
 
-
+.header-nav {
+  box-sizing: border-box;
+}
 
 .nav-link {
   font-weight: 500;
