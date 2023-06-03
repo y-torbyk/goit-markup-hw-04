@@ -162,7 +162,7 @@ width: 261px;
 
 
 .list-two::after {
-  content: '';
+  content: '1';
   position: absolute;
   left: 0;
   bottom: -1px;
