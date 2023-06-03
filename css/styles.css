@@ -99,7 +99,7 @@ ul {
 .menu {
   display: flex;
   gap: 40px;
-padding: 0px;
+  padding: 0px;
 
 
 width: 261px;
@@ -193,7 +193,7 @@ a.nav-link::after {
 .main-bunner {
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
-  max-width: 1440px;
+  /* max-width: 1440px; */
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
