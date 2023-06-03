@@ -369,6 +369,7 @@ width: 261px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-pgf);
+  margin-bottom: 8px;
 }
 
 .li-class {
