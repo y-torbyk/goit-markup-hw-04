@@ -295,6 +295,16 @@ width: 261px;
   color: var(--color-pgf);
 
   text-align: center;
+
+}
+
+
+.textp::after{
+  content: '';
+  display: block;
+  align-items: center;
+  margin: 10px;
+
 }
 
 .doing {
@@ -362,6 +372,7 @@ width: 261px;
   background-color: var(--color-main);
   width: calc(100% - 72px) / 4;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name {
@@ -483,6 +494,7 @@ width: 261px;
   /* CORNFLOWER */
   border: 1px solid var(--border-button);
   width: calc((100% - 48px) / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-name {
