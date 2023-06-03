@@ -164,6 +164,7 @@ a.nav-link::after {
   background-color: #404bbf;
   color: #404bbf;
   border-radius: 2px;
+  display: inline-block;
 
 }
 
