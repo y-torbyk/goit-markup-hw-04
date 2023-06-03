@@ -154,8 +154,14 @@ width: 261px;
 }
 
 
+.list-two {
+  display: flex;
+  gap: 24px;
+}
 
-a.nav-link::after {
+
+
+.list-two::after {
   content: '';
   position: absolute;
   left: 0;
