@@ -403,6 +403,10 @@ width: 261px;
   justify-content: center;
 }
 
+.list-soc-link:hover,
+.list-soc-link:focus {
+  background: #31D0AA;
+}
 
 .list-soc-icon {
   fill: #ffffff;
