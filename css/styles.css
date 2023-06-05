@@ -445,6 +445,18 @@ width: 261px;
   max-width: 264px;
 }
 
+.text-customers {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-txt-cl);
+  margin-bottom: 72px;
+}
 
 .test {
   padding-top: 120px;
@@ -474,13 +486,14 @@ width: 261px;
 .test-icon {
   width: 100px;
   height: 60px;
-  fill: currentColor;
+  fill: #999999;
+  background-color: #31D0AA;
 }
 
 .test-link:hover,
 .test-link:focus {
-  border-color: #ff6c00;
-  color: #ff6c00;
+  border-color: #404BBF;
+  color: #404BBF;
 }
 
 
