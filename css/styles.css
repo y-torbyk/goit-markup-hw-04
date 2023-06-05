@@ -486,7 +486,7 @@ width: 261px;
 .test-icon {
   width: 100px;
   height: 60px;
-  fill: #999999;
+  fill: currentColor;
   background-color: #31D0AA;
 }
 
