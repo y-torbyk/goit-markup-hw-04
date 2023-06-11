@@ -449,12 +449,15 @@ width: 261px;
 
   .list-footer {
     display: flex;
-    /* flex-wrap: nowrap; */
-    justify-content: center;
-    gap: 10px;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+    
   }
 
 .list-soc-items-footer{
+  flex-wrap: nowrap;
     width: 40px;
     height: 40px;
     background-color: #4D5AE5;
