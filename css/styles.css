@@ -485,6 +485,13 @@ ul {
 }
 
 
+
+.list-soc-link:hover,
+.list-soc-link:focus {
+  background-color: #404bbf;
+}
+
+
 .element {
   width: calc((100% - 72px) / 4);
 }
@@ -526,7 +533,7 @@ ul {
 }
 
 .list-soc-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 /* .list-soc-link-footer {
