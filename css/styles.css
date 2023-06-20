@@ -174,18 +174,16 @@ ul {
   justify-content: center;
   margin-bottom: 8px;
 
-
   background: #f4f4fd;
   border-radius: 4px;
   width: 264px;
   height: 112px;
 }
 
-.feature-icon {
+/* .feature-icon {
   width: 64;
   height: 64;
-
-}
+} */
 
 .list-flex h3 {
   margin-top: 8px;
