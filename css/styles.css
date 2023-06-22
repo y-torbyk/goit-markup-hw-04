@@ -804,6 +804,12 @@ ul {
   transform:transform: translateY(0%);
 }
 
+.app-picture {
+  position: relative;
+  overflow: hidden;
+}
+
+
 
 .cart {
   background: var(--color-main);
