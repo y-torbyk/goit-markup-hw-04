@@ -307,10 +307,11 @@ ul {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
-.modal-btn:hover
-.modal-btn:focus{
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -348,7 +349,15 @@ ul {
   background: var(--background-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  fill: #ffffff;
 }
+
+.feature-icon-x {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
 
 .strategy {
   padding: 120px 0;
