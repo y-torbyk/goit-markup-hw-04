@@ -730,10 +730,7 @@ ul {
   margin-bottom: 72px;
 }
 
-.list-btn {
-  border: 1px solid var(--border-button);
-  border-radius: 4px;
-}
+
 
 .list-two {
   display: flex;
@@ -772,6 +769,12 @@ ul {
   border-radius: 4px;
 }
 
+.list-btn {
+  border: 1px solid var(--border-button);
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .text-btn:hover {
   border: 1px solid transparent;
 }
@@ -793,7 +796,12 @@ ul {
 
 .prt-list {
   display: block;
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
+.prt-list:hover,
+.prt-list:focus {
+  transform:transform: translateY(0%);
 }
 
 
